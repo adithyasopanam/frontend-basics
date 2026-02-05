@@ -5,6 +5,7 @@ This repository contains mini projects built with HTML, CSS, and JavaScript to s
 
 ## 📂 Projects
 - **To-Do App** → Practice DOM manipulation and event handling
+   https://adithyasopanam.github.io/todo-app/
 - **Calculator** → Learn functions, operators, and user input
 - **Responsive Layout** → Explore Flexbox and CSS Grid
 
