@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function myFunction() {
+            var a = 10; // type number
+            document.getElementById("demo").innerHTML ="The variable is : " + a;
+           document.getElementById("demo").innerHTML ="Variable Type : " + typeof(a)
+        var name = "Geeks" ;// type string(Dynamic Typing)
+     document.getElementById("demo").innerHTML ="The variable is : " + name;
+     document.getElementById("demo").innerHTML ="Variable Type : " + typeof(name);
+        let age = 20; // type number
+        document.getElementById("demo").innerHTML ="The variable is : " + age;
+        a=30;
+        document.getElementById("demo").innerHTML ="The variable is : " + a+"<br>";
+        const s=123;
+        document.getElementById("demo1").innerHTML ="The variable is : " + s;
+        document.getElementById("demo1").innerHTML ="Variable Type : " + typeof(s);
+        }
+        const arrow = () => {
+            document.getElementById("demo1").innerHTML ="This is an Arrow Function";
+        }
+        const add=(a,b)=>{
+            alert(a+b);
+        }
+        const sum=(...a)=>{
+            let sum = 0;
+            for (let i = 0; i < a.length; i++) {
+                sum+= a[i]*a[i];
+            }
+            alert(sum);
+        }
+
+
+    </script>
+</head>
+<body onload="myFunction()">
+<p id="demo"> </p>
+<p id="demo1"> </p>
+<button onclick="arrow()">Try it</button>
+<button onclick="add(5,6)">Try it</button>
+<button onclick="sum(1,2,3,4,5)">sum of squares</button>
+</body>
+</html>
